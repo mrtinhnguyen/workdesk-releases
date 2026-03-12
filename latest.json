@@ -1,11 +1,11 @@
 {
-  "version": "1.0.8",
-  "notes": "📦 WorkHub v1.0.8\n\n✨ Tính năng mới:\n• Tự động kiểm tra cập nhật\n• Một cú click cài đặt\n• Tự động restart\n\n🐛 Sửa lỗi:\n• Admin: Lưu Phòng ban\n• Admin: Xóa nhiệm vụ\n• Admin: Mở lại cửa sổ",
-  "pub_date": "2026-03-11T00:00:00Z",
+  "version": "1.0.9",
+  "notes": "📦 WorkHub v1.0.9 - Sửa lỗi IPC & Phân quyền\n\n✨ Tính năng mới:\n• 🔐 Phân quyền quản lý Bộ phận & Nhân sự theo ID người dùng cụ thể\n• 🔔 Thông báo tự động tải khi đăng nhập\n\n🐛 Sửa lỗi:\n• ✅ Đăng nhập: Sửa lỗi databaseUrl IPC (camelCase đúng theo Tauri)\n• ✅ Đồng bộ nhiệm vụ: Sửa lỗi userId/departmentId\n• ✅ Thông báo: Hiển thị đúng sau đăng nhập\n• ✅ Admin: Sửa toàn bộ tham số invoke() sang camelCase",
+  "pub_date": "2026-03-12T00:00:00Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "",
-      "url": "https://github.com/mrtinhnguyen/deskhive/releases/download/v1.0.8/WorkHub_1.0.8_x64_en-US.msi"
+      "url": "https://github.com/mrtinhnguyen/deskhive/releases/download/v1.0.9/WorkDesk_1.0.9_x64_vi-VN.msi"
     }
   }
 }
