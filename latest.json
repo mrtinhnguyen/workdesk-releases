@@ -1,11 +1,11 @@
 {
-  "version": "1.0.9",
-  "notes": "📦 WorkHub v1.0.9 - Sửa lỗi IPC & Phân quyền\n\n✨ Tính năng mới:\n• 🔐 Phân quyền quản lý Bộ phận & Nhân sự theo ID người dùng cụ thể\n• 🔔 Thông báo tự động tải khi đăng nhập\n\n🐛 Sửa lỗi:\n• ✅ Đăng nhập: Sửa lỗi databaseUrl IPC (camelCase đúng theo Tauri)\n• ✅ Đồng bộ nhiệm vụ: Sửa lỗi userId/departmentId\n• ✅ Thông báo: Hiển thị đúng sau đăng nhập\n• ✅ Admin: Sửa toàn bộ tham số invoke() sang camelCase",
-  "pub_date": "2026-03-12T00:00:00Z",
+  "version": "1.0.10",
+  "notes": "📦 WorkDesk v1.0.10 - Nâng cấp thông báo & Tối ưu hiệu suất\n\n✨ Tính năng mới:\n• 🔔 Thông báo hiển thị tên người gửi: \"Tin nhắn từ [Tên]\"\n• 📢 Gửi nhắc nhở nhiệm vụ đến toàn bộ phận (không chỉ cá nhân)\n• ⚡ Nút Gửi nhắc nhở ở từng nhiệm vụ trong danh sách Admin\n• 🛎️ Dialog thông báo khẩn (always-on-top) và thông báo tray\n\n🚀 Tối ưu hiệu suất:\n• Tất cả interval tự động dừng khi cửa sổ bị ẩn/thu nhỏ\n• Đồng hồ đếm ngược tối ưu: 60s thay vì 30s\n• Khi mở lại cửa sổ: tự động đồng bộ heartbeat & deadline ngay lập tức\n\n🐛 Sửa lỗi:\n• ✅ Sửa logic báo cáo tiến độ nhiệm vụ (4 trạng thái: đúng tiến độ, đang thực hiện, trễ hạn, quá hạn)",
+  "pub_date": "2026-03-10T00:00:00Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "",
-      "url": "https://github.com/mrtinhnguyen/deskhive/releases/download/v1.0.9/WorkDesk_1.0.9_x64_vi-VN.msi"
+      "url": "https://github.com/mrtinhnguyen/deskhive/releases/download/v1.0.10/WorkDesk_1.0.10_x64_vi-VN.msi"
     }
   }
 }
