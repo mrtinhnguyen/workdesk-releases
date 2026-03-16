@@ -5,7 +5,7 @@
   "platforms": {
     "windows-x86_64": {
       "signature": "",
-      "url": "https://github.com/mrtinhnguyen/deskhive/releases/download/v1.0.10/WorkDesk_1.0.10_x64_vi-VN.msi"
+      "url": "https://github.com/mrtinhnguyen/DeskHive/releases/download/v1.0.10/WorkDesk_1.0.10_x64_vi-VN.msi"
     }
   }
 }
