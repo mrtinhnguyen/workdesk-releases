@@ -1,11 +1,11 @@
 {
-  "version": "1.0.12",
-  "notes": "📦 WorkDesk v1.0.12 - Nâng cấp thông báo & Tối ưu hiệu suất\n\n✨ Tính năng mới:\n• 🔔 Thông báo hiển thị tên người gửi: \"Tin nhắn từ [Tên]\"\n• 📢 Gửi nhắc nhở nhiệm vụ đến toàn bộ phận (không chỉ cá nhân)\n• ⚡ Nút Gửi nhắc nhở ở từng nhiệm vụ trong danh sách Admin\n• 🛎️ Dialog thông báo khẩn (always-on-top) và thông báo tray\n\n🚀 Tối ưu hiệu suất:\n• Tất cả interval tự động dừng khi cửa sổ bị ẩn/thu nhỏ\n• Đồng hồ đếm ngược tối ưu: 60s thay vì 30s\n• Khi mở lại cửa sổ: tự động đồng bộ heartbeat & deadline ngay lập tức\n\n🐛 Sửa lỗi:\n• ✅ Sửa logic báo cáo tiến độ nhiệm vụ (4 trạng thái: đúng tiến độ, đang thực hiện, trễ hạn, quá hạn)",
-  "pub_date": "2026-03-12T09:35:00Z",
+  "version": "1.0.13",
+  "notes": "📦 WorkDesk v1.0.13 - Nâng cấp khởi động & Lịch tuần\n\n✨ Tính năng mới:\n• 🚀 Khởi động thông minh: cửa sổ tự hiển thị nổi trên cùng 3 giây mỗi lần khởi động\n• 🔔 Tóm tắt tự động khi khởi động: hiển thị nhiệm vụ hôm nay, cảnh báo quá hạn và thông báo chưa đọc\n• 🟡 Banner nhắc đăng nhập: tự động hiện khi chưa đăng nhập, tự ẩn sau khi đăng nhập\n• 📅 Lịch tuần – trường Lãnh đạo chủ trì: ghi nhận lãnh đạo chủ trì từng hoạt động\n• 📝 Đăng ký lịch: nhân viên có thể đăng ký đưa sự kiện vào lịch tuần của đơn vị\n• 🗂️ Quản lý Đăng ký lịch (Admin): duyệt / từ chối yêu cầu đăng ký lịch từ nhân viên\n• 🏃 Luôn chạy nền: ứng dụng không tắt hoàn toàn, chỉ thu gọn xuống tray khi đóng cửa sổ\n\n🐛 Sửa lỗi:\n• ✅ Sửa phân nhóm Sáng/Chiều trong bảng lịch tuần",
+  "pub_date": "2026-03-17T23:10:00Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "",
-      "url": "https://github.com/mrtinhnguyen/workdesk-releases/main/WorkDesk_1.0.12_x64_vi-VN.msi"
+      "url": "https://github.com/mrtinhnguyen/workdesk-releases/main/WorkDesk_1.0.13_x64_vi-VN.msi"
     }
   }
 }
