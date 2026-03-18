@@ -1,11 +1,11 @@
 {
-  "version": "1.0.13",
-  "notes": "📦 WorkDesk v1.0.13 - Nâng cấp khởi động & Lịch tuần\n\n✨ Tính năng mới:\n• 🚀 Khởi động thông minh: cửa sổ tự hiển thị nổi trên cùng 3 giây mỗi lần khởi động\n• 🔔 Tóm tắt tự động khi khởi động: hiển thị nhiệm vụ hôm nay, cảnh báo quá hạn và thông báo chưa đọc\n• 🟡 Banner nhắc đăng nhập: tự động hiện khi chưa đăng nhập, tự ẩn sau khi đăng nhập\n• 📅 Lịch tuần – trường Lãnh đạo chủ trì: ghi nhận lãnh đạo chủ trì từng hoạt động\n• 📝 Đăng ký lịch: nhân viên có thể đăng ký đưa sự kiện vào lịch tuần của đơn vị\n• 🗂️ Quản lý Đăng ký lịch (Admin): duyệt / từ chối yêu cầu đăng ký lịch từ nhân viên\n• 🏃 Luôn chạy nền: ứng dụng không tắt hoàn toàn, chỉ thu gọn xuống tray khi đóng cửa sổ\n\n🐛 Sửa lỗi:\n• ✅ Sửa phân nhóm Sáng/Chiều trong bảng lịch tuần",
-  "pub_date": "2026-03-17T23:10:00Z",
+  "version": "1.0.14",
+  "notes": "📦 WorkDesk v1.0.14 - Sửa lỗi hiển thị & Tương thích Windows 10\n\n🐛 Sửa lỗi:\n• ✅ Nhiệm vụ chung (server task) luôn hiển thị, không bị ẩn khi hoàn thành nhiệm vụ cá nhân\n• ✅ Nhiệm vụ chung không bị che bởi danh sách nhiệm vụ cá nhân khi thêm mới\n• ✅ Sửa màn hình trắng khi khởi động trên Windows 10 (vô hiệu hóa transparency không tương thích)\n• ✅ Thanh tóm tắt nhiệm vụ: Tổng, Hoàn thành, Chưa xong, Hôm nay, Ngày mai, Tuần này, Tháng này\n• ✅ Tìm kiếm nhanh người phối hợp trong cả form thêm nhiệm vụ và giao theo bộ phận\n\n✨ Cải tiến:\n• 📋 Danh sách nhiệm vụ phân nhóm theo thời gian: Hôm nay / Ngày mai / Tuần này\n• 🏷️ Mỗi nhiệm vụ hiển thị: Tên, Thời hạn, Phụ trách, Phối hợp, Trạng thái\n• 🏢 Giao nhiệm vụ hàng loạt theo bộ phận với tài liệu tham chiếu và thời hạn linh hoạt",
+  "pub_date": "2026-03-18T23:10:00Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "",
-      "url": "https://github.com/mrtinhnguyen/workdesk-releases/releases/download/v1.0.13/WorkDesk_1.0.13_x64_vi-VN.msi"
+      "url": "https://github.com/mrtinhnguyen/workdesk-releases/releases/download/v1.0.14/WorkDesk_1.0.14_x64_vi-VN.msi"
     }
   }
 }
